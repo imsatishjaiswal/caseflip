@@ -1,0 +1,35 @@
+{
+  "name": "caseflip",
+  "version": "1.0.3",
+  "description": "A robust, lightweight string case transformation library with support for Sentence case, Capitalize case, and more.",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "case",
+    "string",
+    "capify",
+    "sentence-case",
+    "capitalize",
+    "alternating-case",
+    "typescript"
+  ],
+  "author": "Satish Jaiswal",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "EXAMPLES.md"
+  ]
+}
