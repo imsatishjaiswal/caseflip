@@ -3,8 +3,8 @@
 > A robust, lightweight, and modern string case transformation library with first-class TypeScript support.
 
 [![npm version](https://img.shields.io/npm/v/caseflip.svg?style=flat-square)](https://www.npmjs.com/package/caseflip)
-[![license](https://img.shields.io/npm/l/caseflip.svg?style=flat-square)](https://github.com/your-username/caseflip)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![license](https://img.shields.io/github/license/imsatishjaiswal/caseflip?style=flat-square)](https://github.com/imsatishjaiswal/caseflip/blob/main/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/imsatishjaiswal/caseflip/pulls)
 
 `caseflip` is a refined string processing utility designed for developers who demand both simplicity and robustness. It handles complex punctuation and whitespace with ease.
 
@@ -57,11 +57,11 @@ toAlternatingCase("vibe check");
 // Result: "vIbE ChEcK"
 
 // 🔡 Lowercase
-toLowerCase("HELLO WORLD");
+toLowerCase("HELLO WORLD"); //built-in string methods in JavaScript
 // Result: "hello world"
 
 // 🔠 Uppercase
-toUpperCase("hello world");
+toUpperCase("hello world"); //built-in string methods in JavaScript
 // Result: "HELLO WORLD"
 ```
 
@@ -76,19 +76,3 @@ const result: string = toSentenceCase("hello world.");
 ```
 
 ---
-
-## 📖 API Reference
-
-Check out the [EXAMPLES.md](./EXAMPLES.md) for a full list of use cases.
-
-- `toSentenceCase(str: string): string`
-- `toLowerCase(str: string): string`
-- `toUpperCase(str: string): string`
-- `toCapitalizeCase(str: string): string`
-- `toAlternatingCase(str: string): string`
-
----
-
-## 📄 License
-
-MIT © [satishjaiswal](https://github.com/imsatishjaiswal)

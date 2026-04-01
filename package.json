@@ -1,6 +1,6 @@
 {
   "name": "caseflip",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A robust, lightweight string case transformation library with support for Sentence case, Capitalize case, and more.",
   "main": "index.js",
   "module": "index.js",
@@ -26,10 +26,19 @@
   ],
   "author": "Satish Jaiswal",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imsatishjaiswal/caseflip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imsatishjaiswal/caseflip/issues"
+  },
+  "homepage": "https://github.com/imsatishjaiswal/caseflip#readme",
   "files": [
     "index.js",
     "index.d.ts",
     "README.md",
-    "EXAMPLES.md"
+    "EXAMPLES.md",
+    "LICENSE"
   ]
 }
